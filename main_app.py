@@ -18,6 +18,9 @@ import numpy as np
 import seaborn as sns
 import plotly.express as px
 import altair as alt
+import nltk
+from nltk.corpus import stopwords  
+from nltk.tokenize import word_tokenize 
 
 st.title('Bank query intention detector')
 df=pd.read_csv('bank_test.csv',encoding='cp1252')
