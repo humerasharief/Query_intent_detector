@@ -19,7 +19,6 @@ from tensorflow.keras.preprocessing import sequence
 import numpy as np
 import seaborn as sns
 import nltk
-nltk.download('stopwords')
 import plotly.express as px
 import altair as alt
 
