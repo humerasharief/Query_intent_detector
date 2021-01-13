@@ -6,9 +6,7 @@ Created on Fri Jan  8 07:53:13 2021
 """
 
 import streamlit as st
-import pandas as pd
-from nltk.corpus import stopwords  
-from nltk.tokenize import word_tokenize  
+import pandas as pd 
 import re
 import matplotlib.pyplot as plt
 import string
