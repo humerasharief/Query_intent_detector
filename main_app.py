@@ -18,7 +18,6 @@ import pickle as pkl
 from tensorflow.keras.preprocessing import sequence
 import numpy as np
 import seaborn as sns
-import nltk
 import plotly.express as px
 import altair as alt
 
